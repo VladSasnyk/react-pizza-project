@@ -1,0 +1,27 @@
+.section{
+    padding: 3%;
+    width: 100%;
+    
+}
+.events{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    width: 80%;
+    margin: auto;
+}
+.events h1{
+    font-size: 3.5rem;
+}
+.events p{
+    color: gray;
+}
+
+@media screen and (max-width: 498px) {
+    .events{
+        grid-template-columns: 1fr;
+        font-size: 1.3rem;
+    }
+}
+
+

@@ -1,0 +1,28 @@
+.list{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+.list li{
+    list-style: none;
+    border-radius: 50px;
+    padding: 1% 5%;
+    cursor: pointer;
+    border: 1px solid white;
+}
+li.active{
+    background: linear-gradient(261.69deg, #FF5D29 12.12%, #FE9C1C 86.72%);
+}
+
+@media screen and (max-width:498px) {
+    .list{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        padding-left: 0;
+    }
+    .list li{
+        padding: 5%;
+    }
+}

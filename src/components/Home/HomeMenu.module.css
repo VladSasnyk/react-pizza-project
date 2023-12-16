@@ -1,0 +1,20 @@
+.home-menu{
+    max-width: 30%;
+    color: white;
+    text-align: center;
+}
+.title{
+    font-size: 3.3rem;
+}
+
+@media screen and (max-width:1024px) {
+    .home-menu{
+        transform: scale(0.8);
+    }
+}
+@media screen and (max-width:968px) {
+    .home-menu{
+        max-width: 80%;
+        text-align: center;
+    }
+}

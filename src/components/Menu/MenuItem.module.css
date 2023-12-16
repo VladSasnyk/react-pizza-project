@@ -1,0 +1,42 @@
+
+
+.menuItem {
+    background: #210A01;
+    position: relative;
+    margin-top: 40%;
+    padding-top: 35%;
+    list-style: none;
+}
+
+.menuItemImg {
+    position: absolute;
+    top: -30%;
+    left: 18%;
+    filter: drop-shadow(0px 0px 25px rgba(255, 138, 0, 0.18));
+}
+
+.menuItemName {
+    font-size: 1.2rem;
+}
+
+.menuItemFilling {
+    color: #A3A3A3;
+    font-family: "Muller500";
+    margin-top: 3%;
+}
+
+@media screen and (max-width: 1024px) {
+    .menuItem{
+        transform: scale(0.9);
+    }
+    .menuItemImg{
+        left: 6%;
+    }
+}
+
+@media screen  and (max-width: 498px){
+    .menuItemImg{
+        transform:scale(0.6);
+        left: -15%;
+    }
+}

@@ -1,0 +1,33 @@
+.button {
+    background: linear-gradient(261.69deg, #FF5D29 12.12%, #FE9C1C 86.72%);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  .button:hover {
+    border-color: #333;
+    color: #ff3;
+    text-shadow: 0 0 10px #ff3, 0 0 8px #ff3, 0 0 5px #ff3, 0 0 2px #ff3;
+    box-shadow: 0 0 10px #ff3, 0 0 8px #ff3, 0 0 5px #ff3, 0 0 2px #ff3;
+  }
+  @media screen and (max-width:1169px) {
+    .button{
+        font-size: 1rem;
+        padding: 15px 25px;
+    }
+}
+  
+button:disabled,
+button:focus:disabled,
+button:hover:disabled,
+button:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}

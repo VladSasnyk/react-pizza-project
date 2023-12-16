@@ -1,0 +1,33 @@
+.basis{
+    display: flex;
+    border: 1px solid orange;
+    border-radius: 50px;
+    width: 90%;
+    position: relative;
+    margin:auto;
+}
+.basis Button{
+    background: inherit;
+    width: 100%;
+}
+.link{
+    text-decoration: none;
+    width: 100%;
+}
+.switch{
+    background: linear-gradient(261.69deg, #FF5D29 12.12%, #FE9C1C 86.72%);
+    position: absolute;
+    width: 50%;
+    border-radius: 50px;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    transition: 0.6s;
+}
+
+.switch.left{
+    left: 0;
+}
+.switch.right{
+    left: 50%;
+}

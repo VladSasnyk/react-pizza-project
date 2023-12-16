@@ -1,0 +1,65 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem 0;
+}
+
+.form Button {
+    margin: auto;
+}
+
+.form Input {
+    margin: auto;
+    background-color: inherit;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+}
+
+.amountChange {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+}
+
+.amountChange button {
+    font: inherit;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white;
+    border: 1px solid white;
+    width: 3rem;
+    text-align: center;
+    border-radius: 6px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin: 0.25rem;
+}
+
+.amountChange button:hover,
+.amountChange button:active {
+    background: linear-gradient(261.69deg, #FF5D29 12.12%, #FE9C1C 86.72%);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@media screen and (max-width: 950px) {
+    .amountChange{
+        width: 60%;
+    }
+  }
+  @media screen and (max-width: 496px) {
+    .amountChange{
+        width: 80%;
+    }
+  }

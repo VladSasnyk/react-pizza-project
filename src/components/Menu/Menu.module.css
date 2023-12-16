@@ -1,0 +1,14 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+}
+.title{
+    color:white;
+    font-size: 2rem;
+}
+

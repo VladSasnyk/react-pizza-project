@@ -1,0 +1,14 @@
+.loginButton{
+    display: flex;
+    gap: 1.3rem;
+   
+}
+.welcome{
+    width: 10%;
+}
+
+@media screen and (max-width: 498px) {
+    #login{
+        display:none;
+    }
+}

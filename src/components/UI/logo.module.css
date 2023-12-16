@@ -1,0 +1,19 @@
+.logo {
+    font-size: 2.3em;
+    background: -webkit-linear-gradient(#FF6432, #FFA228);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* line-height: 37px; */
+  }
+  .logo:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 51, 0.3);
+    text-shadow: 0 0 1px rgba(255, 255, 51, 0.2), 0 0 8px rgba(255, 255, 51, 0.2), 0 0 5px rgba(255, 255, 51, 0.2), 0 0 2px rgba(255, 255, 51, 0.2);
+  }
+
+  @media screen and (max-width:1169px) {
+    .logo{
+        font-size: 1.5rem;
+    }
+}  

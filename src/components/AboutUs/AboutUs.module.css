@@ -1,0 +1,33 @@
+.section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3% 5%;
+    margin: auto;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.title{
+    font-size: 3rem;
+}
+.text{
+    width: 50%;
+    margin: auto;
+    color: gray;
+}
+.img{
+    width: 50%;
+}
+
+@media screen and (max-width: 978px) {
+    .img{
+        width: 100%;
+    }
+}
